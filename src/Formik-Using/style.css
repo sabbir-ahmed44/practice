@@ -1,0 +1,55 @@
+/* Center the form on the page */
+body{
+    background-color: rgb(172, 9, 131);
+}
+.form-container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #cf1497;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px green;
+    background-color: #0f4c9c;
+  }
+  
+  /* Style form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 2px 4px 4px yellowgreen;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #c1c1c1;
+  }
+  
